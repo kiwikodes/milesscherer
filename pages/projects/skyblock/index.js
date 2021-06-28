@@ -1,6 +1,8 @@
+import styles from './styles.module.css';
+
 export default function Skyblock() {
     return (
-        <table style="width:100%">
+        <table className={styles.table}>
             <tr>
                 <th>Firstname</th>
                 <th>Lastname</th>
