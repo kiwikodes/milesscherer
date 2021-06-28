@@ -5,7 +5,13 @@
     background-color: gray;
     height: 100%;
 }
-html, body {
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
     height: 100%;
     margin: 0px;
     padding: 0px;
