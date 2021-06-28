@@ -11,9 +11,13 @@ export default function Skyblock() {
             `}</style>
             <table className={styles.table}>
                 <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
-                    <th>Age</th>
+                    <th>Item</th>
+                    <th>Buy Price</th>
+                    <th>NPC Buy Price</th>
+                    <th>Sell Price</th>
+                    <th>Sell Price (with tax)</th>
+                    <th>NPC Sell Price</th>
+                    <th>Potential Profit</th>
                 </tr>
             </table>
         </div>
